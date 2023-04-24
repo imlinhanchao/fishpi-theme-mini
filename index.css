@@ -56,13 +56,13 @@ body {
 #home-sidebar.sidebar {
   width: 2em;
   justify-content: flex-end;
+    z-index: 100;
 }
 
 #home-sidebar .ivu-avatar {
   height: 20px;
   width: 20px;
   line-height: 20px;
-  z-index: 100;
 }
 
 #home-sidebar.sidebar .feature-list {
@@ -142,7 +142,7 @@ body {
 #content .msg-item .db-users .redpacket-avatar,
 #content .msg-item .redpacket-users .db-avatar,
 #content .msg-item .redpacket-users .redpacket-avatar {
-  width: 15px;
+  width: 10px;
   height: 15px;
   line-height: 15px;
 }
