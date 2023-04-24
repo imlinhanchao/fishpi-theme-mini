@@ -1,0 +1,14 @@
+{
+  "name": "mini-theme",
+  "publisher": "hancel",
+  "version": "1.0.0",
+  "description": "Mini主题",
+  "main": "index.css",
+  "scripts": {
+  },
+  "fishpi": {
+    "type": "theme"
+  },
+  "author": "Hancel",
+  "license": "MIT"
+}
