@@ -8,6 +8,8 @@
   --main-chatroom-user-message-background-color: transparent;
   --global-append-btn-background-color: transparent;
   --global-control-background-color: transparent;
+  --main-emoji-background-color: rgb(206 202 195);
+  --main-redpacket-readed-background-color: rgb(206 202 195);
 }
 
 #white-theme {
@@ -172,6 +174,7 @@ body {
 #content .chat-toolbar .ivu-btn {
   height: 24px;
   font-size: 12px;
+  z-index:100;
 }
 
 #breezemoons.layout .msg-avatar {
@@ -194,7 +197,11 @@ body {
 
 .layout .discusse {
   position: absolute;
-  bottom: 35px;
+  bottom: 50px;
   width: 100%;
   z-index: 100;
+}
+
+.emoji-form .face-list {
+    background-color: rgb(206 202 195);
 }
