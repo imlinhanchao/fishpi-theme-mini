@@ -62,6 +62,7 @@ body {
   height: 20px;
   width: 20px;
   line-height: 20px;
+  z-index: 100;
 }
 
 #home-sidebar.sidebar .feature-list {
@@ -159,12 +160,12 @@ body {
 
 #content .msg-item.msg-current .msg-contain,
 #content .msg-item.msg-current {
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 #content .msg-item.msg-current .msg-user {
   color: var(--global-active-color);
-  text-align: left;
+  text-align: right;
 }
 
 #content .chat-editor {
