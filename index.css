@@ -206,3 +206,18 @@ body {
 .emoji-form .face-list {
     background-color: rgb(206 202 195);
 }
+
+.ivu-modal-body {
+    background-color: gainsboro;
+}
+
+.ivu-modal-header {
+    border-bottom-color: #10100f;
+	background-color: gainsboro;
+}
+
+.ivu-modal-footer {
+    border-top-color: #10100f;
+	background-color: gainsboro;
+}
+
